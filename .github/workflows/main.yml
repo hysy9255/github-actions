@@ -12,3 +12,5 @@ jobs:
       run: pwd
     - name: Run ls -al
       run: ls -al
+    - name: Run cat
+      run: cat hello_world.txt
