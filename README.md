@@ -2,7 +2,7 @@
 
 Github Actions 일단 무작정 따라해보기 
 
-해당 문서는 [애플코딩의 github actions](https://www.youtube.com/watch?v=uBOdEEzjxzE&t=1022s) 를 참고하였습니다. 
+해당 문서는 [생활코딩의 github actions](https://www.youtube.com/watch?v=uBOdEEzjxzE) 를 참고하였습니다. 
 
 
 1. github에 새로운 repository를 생성한다.
