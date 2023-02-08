@@ -6,22 +6,36 @@ Github Actions 일단 무작정 따라해보기
 3. 그러면 <repository_name>/.github/workflows 내부에 어떤 yaml 파일을 생성할 수 있게끔 되어있다.
 
 ```
-  json: 
+json: 
   - rigid
   - better for data interchange
-yaml: 
-  - slim and flexible
-  - better for configuration
 object: 
   - key: value
     array:
       - null_value: null
       - boolean: true
-      - integer: 1
-content: hello
-content2: |
-    exactly as you see
-    will appear these three
-    lines of poetry
+content: hello  
+```
   
+```
+{
+  "json": [
+    "rigid",
+    "better for data interchange"
+  ],
+  "object": [
+    {
+      "key": "value",
+      "array": [
+        {
+          "null_value": null
+        },
+        {
+          "boolean": true
+        },
+      ]
+    }
+  ],
+  "content": "hello",
+}
 ```
