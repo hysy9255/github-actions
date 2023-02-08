@@ -2,10 +2,7 @@
 
 Github Actions 일단 무작정 따라해보기 
 
-해당 문서는 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-
-
-[네이버 바로가기](http://www.naver.com/)
+해당 문서는 [애플코딩의 github actions](http://www.naver.com/) 를 참고하였습니다. 
 
 
 1. github에 새로운 repository를 생성한다.
