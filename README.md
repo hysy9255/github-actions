@@ -46,7 +46,7 @@ content: hello
 }
 ```
   
-4. main.yaml 파일에 아래와 같이 작성한다. 
+5. main.yaml 파일에 아래와 같이 작성한다. 
   
 ```
 name: Hello World
@@ -73,4 +73,7 @@ jobs:
 * 기존에 hello.txt를 repo에 push 해놓았다면 runner 위에도 hello.txt가 있을테니 cat 커맨드가 정상적으로 실행될 수 있다. 
 * actions에 대해서 부연 설명을 하자면 actions 탭에 marketplace라는 것이 존재하고 그곳에 다른 사람들이 만들어 놓은 액션들이  
 * 존재하는데 여기서 본인에게 필요한 액션들을 가져와서 사용할 수 있다. 
+  
+6. workflow를 만드는 작업이 끝났다면 commit 버튼을 눌러준다. 
+7. 이제 해당 repo에 push 가 될 시 해당 workflow가 실행된다. 
   
