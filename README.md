@@ -63,9 +63,14 @@ jobs:
       run: pwd
     - name: Run ls -al
       run: ls -al
+    - name: Cat hello.txt
+      run: cat hello.txt
 ```
 * 해당 workflow의 이름은 Hello World 이고 
 * 해당 repo에 push 라는 이벤트가 있을 시 
-* jobs에 해당되는 커맨드들이 실행된다. 
-* 또한 actions/checkout@v2 라는 액션을 사용하여 해당 레포에 있는 코드들을 
+* jobs에 해당되는 커맨드들이 runner라는 컴퓨터 위에서 실행된다. 
+* 또한 actions/checkout@v2 라는 액션을 사용하여 해당 레포에 있는 코드들을 runner에 가져와서 사용할 수 있다. 
+* 기존에 hello.txt를 repo에 push 해놓았다면 runner 위에도 hello.txt가 있을테니 cat 커맨드가 정상적으로 실행될 수 있다. 
+* actions에 대해서 부연 설명을 하자면 actions 탭에 marketplace라는 것이 존재하고 그곳에 다른 사람들이 만들어 놓은 액션들이  
+* 존재하는데 여기서 본인에게 필요한 액션들을 가져와서 사용할 수 있다. 
   
